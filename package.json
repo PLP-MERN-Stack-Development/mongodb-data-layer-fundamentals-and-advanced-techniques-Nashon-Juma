@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-fundamentals-week1",
+  "version": "1.0.0",
+  "description": "MongoDB Fundamentals Week 1 Assignment",
+  "main": "solution.js",
+  "scripts": {
+    "start": "node solution.js",
+    "test": "node test_solutions.js",
+    "setup": "node insert_books.js",
+    "dev": "node -r dotenv/config solution.js"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "crud",
+    "aggregation",
+    "indexing"
+  ],
+  "author": "Student Name",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
